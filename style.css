@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-box{
+    background-color: #BE3144;
+    text-align: right;
+}
+#navbar a{
+text-decoration: none;
+display: inline-block;
+color: white;
+font-size: 20.416px;
+font-family: 'Times New Roman', Times, serif;
+padding: 20px;
+cursor: pointer;
+}
+#navbar a:hover{
+    background-color: #303841;
+}
+.welcome-section{
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    color: #f0f0f0;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text1{
+    color: #BE3144;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.projects{
+    background-color: #45567D;
+height: 100vh;
+width: 100%;
+}
+.header{
+    text-align: center;
+    padding-top: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #f0f0f0;
+    text-decoration: underline;
+    display: block;
+    line-height: 1.4px;
+}
+.sectionfiles a{
+    text-decoration: none;
+    color: white;
+    font-size: 18.56px;
+    font-family: sans-serif;
+    font-style: bold;
+    /* display: flex; */
+    cursor: pointer;
+    border: 1px solid none;
+    box-sizing: border-box;
+}
+.project-img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.project-link{
+    position: relative;
+}
+.img-sent{
+    box-sizing: inherit;
+    background: #303841;
+    /* padding: 18.6px 4.64px; */
+    border-radius: 0px 0px 2px 2px;
+    background-size: cover;
+    width: 400px;
+    height: 60px;
+    bottom:0%;
+    position: absolute;
+}
+.p-sent{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+.sectionfiles{
+display: flex;
+justify-content: space-around;
+padding-top: 80px;
+/* border: 1px solid white; */
+}
+.contact{
+    background-color: #303841;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 30vh;
+    display:block;
+}
+.cont-title h2{
+text-transform: uppercase;
+font-family: 'Times New Roman', Times, serif;
+font-size: 55.68px;
+}
+.cont-title{
+    color: white;
+}
+.cont-title p{
+    font-size: 20px;
+    font-style: italic;
+}
+.cont-links{
+    padding-top: 30px;
+}
+.cont-links a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    font-size: 22px;
+    transition: 0.3s;
+}
+footer{
+    background-color: #303841;
+    height: 20vh;
+    display: flex;
+    padding: 60px 40px 40px 40px;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
